@@ -1,7 +1,7 @@
 import { Button, ButtonProps } from '@mui/material'
 import Link from 'next/link'
 
-const MuiButtonColors: NonNullable<ButtonProps['color']>[] = [
+export const MuiButtonColors: NonNullable<ButtonProps['color']>[] = [
   'primary',
   'secondary',
   'success',
